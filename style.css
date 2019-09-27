@@ -1,0 +1,16 @@
+body {
+    background-color: lightgreen;
+}
+
+img {
+    height: 700px;
+    width: 700px;
+}
+
+#schedule {
+    transform: rotate(90deg);
+}
+
+#dailyReservations {
+    margin-bottom: 50px;
+}
