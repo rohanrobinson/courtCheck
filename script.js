@@ -6,17 +6,17 @@ court2Info=['Reserved 4:30 to 10:30 for Club Basketball practice', 'Reserved 3:4
            'Available all day for shooting around/pickup'];
 
 function getReservation(today, court2Info) {
-  console.log(today);
+  courtName = "Court 2: ";
   if (today.slice(3) == 1) {
-    return court2Info[0];
+    return courtName + court2Info[0];
   } 
   
   if (today.slice(3) == 2) {
-    return court2Info[1];
+    return courtName + court2Info[1];
   }
   
   if (today.slice(3) == 3) {
-    return court2Info[2]
+    return courtName + court2Info[2]
       }
 }
 
