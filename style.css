@@ -7,10 +7,12 @@ body {
     height: 100px;
     width: 100px;
 }
-
+.stuff {
+    padding-top: 50px;
+}
 #credit {
     text-decoration: none;
-    padding-top: 20px;
+    color: black;
 }
 
 #credit:hover {
