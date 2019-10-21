@@ -8,6 +8,13 @@ body {
     width: 100px;
 }
 
+#credit {
+    text-decoration: none;
+}
+
+#credit:hover {
+    text-decoration: underline;
+}
 img {
     height: 700px;
     width: 700px;
