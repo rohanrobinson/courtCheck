@@ -8,22 +8,22 @@ court2Info = ['Reserved from 12:00PM to 5:00PM','Available for shootaround all d
 function getReservation(today, court2Info) {
   courtName = "Court 2: ";
            
-  if (today.slice(3) == 26) {
+  if (today.slice(3) == 1) {
     return courtName + court2Info[0];
   }       
-  if (today.slice(3) == 27) {
+  if (today.slice(3) == 2) {
     return courtName + court2Info[1];
   } 
   
-  if (today.slice(3) == 28) {
+  if (today.slice(3) == 3) {
     return courtName + court2Info[2];
   }
   
-  if (today.slice(3) == 29) {
+  if (today.slice(3) == 4) {
     return courtName + court2Info[3]
       }
            
-  if (today.slice(3) == 30) {
+  if (today.slice(3) == 5) {
     return courtName + court2Info[4]
   }
           
