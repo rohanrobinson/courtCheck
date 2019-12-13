@@ -8,21 +8,13 @@ court2Info = [ 'Reserved from 3:45PM to 9:00PM',
 function getReservation(today, court2Info) {
   courtName = "Court 2: ";
            
-  if (today.slice(3) == 11) {
+  if (today.slice(3) % 2 == 0) {
     return courtName + court2Info[0];
   }       
-  if (today.slice(3) == 12) {
+  else if (today.slice(3) % 2 == 1) {
     return courtName + court2Info[1];
   } 
-  
-  if (today.slice(3) == 13) {
-    return courtName + court2Info[2];
-  }
-  
-  if (today.slice(3) == 14) {
-    return courtName + court2Info[3]
-      }
-           
+    
 }
 
 document.getElementById("court2Status").innerHTML = getReservation(today, court2Info);
